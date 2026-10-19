@@ -1,0 +1,304 @@
+{
+ "fonte": "ARASAAC — https://arasaac.org",
+ "autor_dos_pictogramas": "Sergio Palao",
+ "propriedade": "Diputación General de Aragón",
+ "deposito_legal": "Z 901-2013",
+ "licenca": "CC BY-NC-SA",
+ "atribuicao_obrigatoria": true,
+ "atribuicao_exige": [
+  "autor: Sergio Palao",
+  "procedencia: ARASAAC",
+  "licenca: Creative Commons"
+ ],
+ "termos_verificados_em": "2026-09-22",
+ "fontes_dos_termos": [
+  "https://aulaabierta.arasaac.org/condiciones-de-uso",
+  "http://blog.arasaac.org/p/condiciones-de-uso_19.html"
+ ],
+ "estado_da_verificacao_dos_termos": "VERIFICADO — ver docs/licencas/ARASAAC.md",
+ "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34). Em 06/10/2026 cada uma das doze frases recebeu três pictogramas ARASAAC candidatos (principal e duas alternativas), montados pelo projeto a pedido do pesquisador; em 07/10/2026 o pesquisador escolheu um deles por frase (campo usado_por). A validação é relato do pesquisador, sem documento assinado neste repositório. Critérios e alternativas: pictogramas_06_10/RELATORIO_PICTOGRAMAS.md; escolha: pictogramas_07_10/APLICACAO.md. Uma imagem é adaptação local (variante_local): 3345_sem_texto = ARASAAC 3345, adaptado: texto do balão removido, a pedido do pesquisador em 07/10/2026; obra derivada sob a mesma licença CC BY-NC-SA; o 3345.png original fica na pasta, fora de uso, como fonte da adaptação. Os ids com fora_de_uso nao sao usados por frase ativa: sao de engenharia (o config os cita em comentario) ou candidatos de 06/10 nao escolhidos em 07/10 (usado_por guarda a frase para a qual eram candidatos); ficam no repositorio com a procedencia.",
+ "pictogramas": [
+  {
+   "id": 2367,
+   "arquivo": "2367.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/2367/2367_500.png",
+   "sha256": "7fea009fb44234daff77d3310116684257d85974a47215889e816cb9e3c22b3f",
+   "bytes": 20571,
+   "usado_por": [
+    "estou_com_dor"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 3345,
+   "arquivo": "3345.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/3345/3345_500.png",
+   "sha256": "ee65bdc97ab2db0bf34feed7390c79295e7b912184b63a340d8c667e2dd743f5",
+   "bytes": 30768,
+   "usado_por": [
+    "vamos_conversar"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": "3345_sem_texto",
+   "arquivo": "3345_sem_texto.png",
+   "variante_local": true,
+   "adaptado_de": 3345,
+   "procedencia": "ARASAAC 3345, adaptado: texto do balão removido",
+   "adaptacao": "o texto escrito no balão de fala (\"BLA, BLA BLA\") foi apagado: só os traços das letras dentro do balão ficaram transparentes, e o balão ficou em branco; o resto da imagem é o original. Feita no projeto a pedido do pesquisador em 07/10/2026, 15h29.",
+   "url_de_origem": "https://static.arasaac.org/pictograms/3345/3345_500.png",
+   "sha256_do_original": "ee65bdc97ab2db0bf34feed7390c79295e7b912184b63a340d8c667e2dd743f5",
+   "licenca": "CC BY-NC-SA (obra derivada, distribuída com a mesma licença do original; autor do original: Sergio Palao; procedência: ARASAAC)",
+   "sha256": "5f7053055bf307dbbea1cebf92464e5e886e28e0c5a311bee04b30c82fea1ab6",
+   "bytes": 58927,
+   "usado_por": [
+    "vamos_conversar"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 5441,
+   "arquivo": "5441.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/5441/5441_500.png",
+   "sha256": "8f2083fa7a4dd65aa8c4e12d56aa20b8966d62ba3ea3f293fee2b6745788714f",
+   "bytes": 13618,
+   "usado_por": [
+    "quero_agua",
+    "quero_pausa"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 6155,
+   "arquivo": "6155.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/6155/6155_500.png",
+   "sha256": "26b0ba63375bf8a7e9edf255b0026b7967adb622b54451fb3d0bba8f0a3451ae",
+   "bytes": 23966,
+   "usado_por": [
+    "eu_nao_gosto"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 6156,
+   "arquivo": "6156.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/6156/6156_500.png",
+   "sha256": "9d25977f7c141fd8ec2e12e243a113cea667079bb964f95fcaa6f5541004e649",
+   "bytes": 15783,
+   "usado_por": [
+    "nao_quero"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 6632,
+   "arquivo": "6632.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/6632/6632_500.png",
+   "sha256": "7448f1c21a0b3d896a7fd27b44c40b86226cffe50c64e859d09c8ee4dd017e5e",
+   "bytes": 14811,
+   "usado_por": [
+    "deixa_eu_fazer"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 7158,
+   "arquivo": "7158.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/7158/7158_500.png",
+   "sha256": "036c9795850bfb5ab926f2d5d9185341b959bb8d41c05d0b855c87319f3fe173",
+   "bytes": 24642,
+   "usado_por": [
+    "deixa_eu_fazer"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 7171,
+   "arquivo": "7171.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/7171/7171_500.png",
+   "sha256": "9dafd91d665ddaf0a3e09803f25494b318ee6a5b20691acfebf583e16756ff1a",
+   "bytes": 20793,
+   "usado_por": [
+    "me_ajuda"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 16643,
+   "arquivo": "16643.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/16643/16643_500.png",
+   "sha256": "0f219c6d7c1e454bd5740c9bea7042ab485d6e4059ca30dd7c844b188097c1eb",
+   "bytes": 26599,
+   "usado_por": [
+    "preciso_descansar"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 16697,
+   "arquivo": "16697.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/16697/16697_500.png",
+   "sha256": "68cfb8652b44162a5b89ac9d50d859a6bf48ad2f0e634581aa044eaf4855c1ba",
+   "bytes": 28821,
+   "usado_por": [
+    "espera_um_pouco"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 29129,
+   "arquivo": "29129.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/29129/29129_500.png",
+   "sha256": "2e596435c223e540565bfa4e7234262c66bbbfa19f5d0c148544053ffbb18606",
+   "bytes": 14251,
+   "usado_por": [
+    "nao_quero"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 31408,
+   "arquivo": "31408.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/31408/31408_500.png",
+   "sha256": "93b902a06b27439d3d80a5e45c48a5c42c89d2b6c63ddd0e820a8136873a10ea",
+   "bytes": 16891,
+   "usado_por": [
+    "eu_consigo"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 32464,
+   "arquivo": "32464.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/32464/32464_500.png",
+   "sha256": "b91cb949e355825afe0d1a59d81ec85fae22b0fcf1b12b7505947a766f5041ae",
+   "bytes": 12581,
+   "usado_por": [
+    "quero_agua"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 32648,
+   "arquivo": "32648.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/32648/32648_500.png",
+   "sha256": "487daa686481eb42a3ad32abe06c9d1369088a8172aedf9d60a74293da99899b",
+   "bytes": 16473,
+   "usado_por": [
+    "me_ajuda"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 32669,
+   "arquivo": "32669.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/32669/32669_500.png",
+   "sha256": "a981888909350d57e60573e8e7c8b43f9cd52e489a14fd9b4b31465713ac9e83",
+   "bytes": 16186,
+   "usado_por": [
+    "vem_aqui"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 32751,
+   "arquivo": "32751.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/32751/32751_500.png",
+   "sha256": "deabb6a317ddd4148682ae24e9897ae0cce3835d945f2074c792e3471c41d26b",
+   "bytes": 14086,
+   "usado_por": [
+    "deixa_eu_fazer"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 35949,
+   "arquivo": "35949.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/35949/35949_500.png",
+   "sha256": "3165a588a25dff2c005b6ddc9cae07bf0edd6d8248f4ac630d88a82653b0776b",
+   "bytes": 9919,
+   "usado_por": [
+    "eu_consigo"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 36480,
+   "arquivo": "36480.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/36480/36480_500.png",
+   "sha256": "ed7c6e3661251aaba05b5650f9a3c2c17f488cb4d41aae396ce30389d5815a22",
+   "bytes": 12680,
+   "usado_por": [
+    "estou_com_dor"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 36914,
+   "arquivo": "36914.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/36914/36914_500.png",
+   "sha256": "13b34be2d32bf2bfd3ecdb5397518adb752135c094e1eb435da8a262d41c70ca",
+   "bytes": 8456,
+   "usado_por": [
+    "espera_um_pouco"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 37182,
+   "arquivo": "37182.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/37182/37182_500.png",
+   "sha256": "b6dc09dcb7e87abe78a8a8c9bfcea850a53bfd6439b21f8fef497fbaf3dda349",
+   "bytes": 18052,
+   "usado_por": [
+    "nao_estou_bem"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 37485,
+   "arquivo": "37485.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/37485/37485_500.png",
+   "sha256": "80413a64a05dafae7a7494889e015ad996f21d04b3db17667a382fdce766a910",
+   "bytes": 15251,
+   "usado_por": [
+    "posso_ir_junto"
+   ],
+   "estatuto": "escolhido pelo pesquisador em 07/10/2026 entre três candidatos; validado por uma fonoaudióloga da equipe, segundo o pesquisador (07/10/2026, 18h34)"
+  },
+  {
+   "id": 38321,
+   "arquivo": "38321.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/38321/38321_500.png",
+   "sha256": "009c663cd30de0ebaab2b649068346c51888d3692802a2296c54fc394a74aa28",
+   "bytes": 22149,
+   "usado_por": [
+    "vamos_conversar"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 38481,
+   "arquivo": "38481.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/38481/38481_500.png",
+   "sha256": "aeff66e196487e9ec74a74c421466ba264238cee758a10d1f51d777090729db8",
+   "bytes": 30976,
+   "usado_por": [
+    "nao_estou_bem"
+   ],
+   "fora_de_uso": true
+  },
+  {
+   "id": 38890,
+   "arquivo": "38890.png",
+   "url_de_origem": "https://static.arasaac.org/pictograms/38890/38890_500.png",
+   "sha256": "8d343366880b4f88a42b0ff10c438801ba321da96555f43fdfdebea97b1912c1",
+   "bytes": 29685,
+   "usado_por": [
+    "eu_nao_gosto"
+   ],
+   "fora_de_uso": true
+  }
+ ]
+}

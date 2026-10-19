@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+torch
+transformers
+librosa
+soundfile
+pyyaml
+whisperx

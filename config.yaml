@@ -1,0 +1,199 @@
+reprodutibilidade:
+  seed: 42
+
+caminhos:
+  dados: .
+  exemplos: exemplos
+  store: store
+  resultados: results
+
+audio:
+  taxa_amostragem: 16000
+  mono: true
+  normalizacao: pico
+  rms_alvo: 0.1
+  cortar_silencio:
+    ativo: true
+    top_db: 30
+  duracao_minima_s: 0.25
+  criterios_da_classe_1:
+    saturacao: 0.001
+    fala_cortada: {inicio_s: 0.1, fim_s: 0.1}
+    duracao_maxima_s: 10
+
+embeddings:
+  congelado: true
+  checkpoints:
+    - facebook/wav2vec2-large-xlsr-53
+  revisoes:
+    facebook/wav2vec2-large-xlsr-53: "c3f9d884181a224a6ac87bf8885c84d1cff3384f"
+  sha256_dos_tensores:
+    facebook/wav2vec2-large-xlsr-53: "9f7863587e4a2a77e40d66745e41f6820bbad95320466b0e07fdb07095901dff"
+  camadas: all
+  pooling: media
+  dispositivo: auto
+
+engenharia:
+  sufixo_da_raiz: _engenharia
+
+classificadores:
+  knn:
+    ativo: true
+    valores_k: [1, 3, 5]
+  regressao_logistica:
+    ativo: true
+    C: 1.0
+    max_iter: 2000
+
+abstencao:
+  reportar_curva: false
+
+splits:
+  esquema: tres_vias
+  fracoes:
+    treino: 0.6
+    teste: 0.2
+    consistencia: 0.2
+  estratificado_por_classe: true
+
+condicoes:
+  esquema_de_selecao: loso
+  grade_fixa:
+    ativa: true
+    criterio: uar
+    minimo_por_frase_na_sessao: 2
+    minimo_de_pontos: 4
+    pontos:
+      - {nome: knn1_c12, camada: 12, classificador: knn_k1}
+      - {nome: log_c12,  camada: 12, classificador: regressao_logistica}
+      - {nome: knn1_c18, camada: 18, classificador: knn_k1}
+      - {nome: log_c18,  camada: 18, classificador: regressao_logistica}
+  agregacao_da_selecao_entre_pessoas: agrupada
+  ativas: [personalizado, entre_pessoas, generico]
+  generico:
+    modelo: medium
+    idioma: pt
+    venv: .venv-whisperx
+    revisao: "08e178d48790749d25932bbc082711ddcfdfbc4f"
+    sha256_dos_arquivos: "b4ffdc08b46c4f51f369a7b3af94d7408b0ae898451f6c5e7a5798143ef7171c"
+    sha256_do_vad: "6d939b3e09ac660b64b825ba75d2271e52c48df240ddc454d6bb25c7111ac50a"
+
+    regua: caracteres
+  whisper_forcado:
+    ligado: true
+    normalizacao: soma
+    grafias: [como_escrita, maiuscula_e_ponto]
+
+frases_alvo:
+  me_ajuda: "me ajuda"
+  estou_com_dor: "estou com dor"
+  preciso_descansar: "preciso descansar"
+  nao_quero: "não quero"
+  espera_um_pouco: "espera um pouco"
+  deixa_eu_fazer: "deixa eu fazer"
+  vamos_conversar: "vamos conversar"
+  posso_ir_junto: "posso ir junto"
+  vem_aqui: "vem aqui"
+  nao_estou_bem: "não estou bem"
+  eu_nao_gosto: "eu não gosto"
+  eu_consigo: "eu consigo"
+
+pictogramas:
+  me_ajuda: [32648]
+  estou_com_dor: [36480, 2367]
+  preciso_descansar: [16643]
+  nao_quero: [29129]
+  espera_um_pouco: [16697]
+  deixa_eu_fazer: [6632, 32751]
+  vamos_conversar: ["3345_sem_texto"]
+  posso_ir_junto: [37485]
+  vem_aqui: [32669]
+  nao_estou_bem: [37182]
+  eu_nao_gosto: [6155]
+  eu_consigo: [31408]
+
+palavras_dos_pictogramas: {}
+
+coleta:
+  protocolo_provisorio: true
+  palavra_sob_pictograma: false
+  frase_sobre_pictogramas: false
+  sessao_por_dia: recusa
+  ritmo:
+    intervalo_ate_proxima_frase_ms: 1500
+  pausa_entre_blocos_s: 60
+  limite_da_sessao_min: 15
+
+  dividir_consistencia: true
+  semente_do_sorteio: afi-2026
+  sessoes:
+    - numero: 1
+      conjunto: treino
+      repeticoes: 4
+    - numero: 2
+      conjunto: treino
+      repeticoes: 4
+    - numero: 3
+      conjunto: consistencia
+      repeticoes: 12
+    - numero: 4
+      conjunto: consistencia
+      repeticoes: 12
+    - numero: 5
+      conjunto: teste
+      repeticoes: 3
+    - numero: 6
+      conjunto: teste
+      repeticoes: 3
+
+  blocos_de_consistencia: {}
+
+  caminho_do_dado: null
+
+  subconjunto_consistencia:
+    - me_ajuda
+    - preciso_descansar
+    - nao_quero
+    - espera_um_pouco
+    - vem_aqui
+    - posso_ir_junto
+    - eu_consigo
+    - nao_estou_bem
+
+  validacao_pendente: {}
+
+inconsistencia:
+  decomposicao_tempo_forma_ligada: false
+  suavizacao:
+    metodo: meia_onda
+    frequencia_de_corte_hz: 15
+    ordem_do_filtro: 4
+    janela_rms_ms: 20
+  pontos_no_tempo: 1000
+  pontos_do_desvio: 50
+  ddof: 1
+  taxa_amostragem: 16000
+  agregacao: mediana
+
+  elegibilidade_de_blocos:
+    ativa: false
+    minimo_de_repeticoes: 12
+    exigir_posicao_estavel: true
+    exigir_canal_estavel: true
+
+interface:
+  porta: 7860
+  compartilhar: false
+
+analise_em_verificacao:
+  metodo_da_h1: k_fixo_3
+  h1b_confirmatoria: false
+  holm_h1a_h1b: true
+  n_minimo_dois_fatores: 3
+  min_gravacoes_validas_por_frase: null
+  metodo_da_h2_em_verificacao: null
+  h2_minimo_de_frases_com_indice: 4
+  sensibilidade_barulho: false
+  sensibilidade_6_primeiras: false
+  sensibilidade_letras_palavras: false
+  sensibilidade_sessoes_completas: false
