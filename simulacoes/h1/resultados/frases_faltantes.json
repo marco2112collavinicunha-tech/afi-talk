@@ -1,0 +1,562 @@
+{
+ "SINTETICO": true,
+ "semente_raiz": 20261009,
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "programa": "analise/analise_do_estudo.py",
+ "sha256_programa": "06dff422ce043397fe239258249abb8e7d9b335f4c3afe26d0bf81d17870d1c1",
+ "aviso": "Dados SINT\u00c9TICOS; n\u00e3o cobre fala apr\u00e1xica real nem o tamanho real da assimetria, do agrupamento ou das trocas.",
+ "script": "frases_faltantes.py",
+ "replicas": 2000,
+ "alfa_unilateral": 0.04,
+ "funcao_que_decide": "ganho_frases_fixas",
+ "regra": "m\u00e9dia das frases presentes de cada participante, sem imputa\u00e7\u00e3o",
+ "celulas": [
+  {
+   "N": 3,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.24751388888888923,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.0405,
+   "ic95_wilson": [
+    0.03270481486601491,
+    0.050057016208856484
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9215,
+   "vies": -0.0005475852604615951,
+   "vies_pelas_faltantes": 0.0002059752348521189
+  },
+  {
+   "N": 3,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.2491111111111114,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.208,
+   "ic95_wilson": [
+    0.19077970668551297,
+    0.2263398899931866
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9155,
+   "vies": 0.0017028523343847468,
+   "vies_pelas_faltantes": 0.00010491227351807775
+  },
+  {
+   "N": 3,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.24858333333333352,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.0435,
+   "ic95_wilson": [
+    0.03540115381062586,
+    0.05334917455864245
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9085,
+   "vies": -0.0009968580639018246,
+   "vies_pelas_faltantes": -0.0002391978438159536
+  },
+  {
+   "N": 3,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.2511388888888893,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.194,
+   "ic95_wilson": [
+    0.17726288779669752,
+    0.21191038817481644
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9295,
+   "vies": 0.00141917402503354,
+   "vies_pelas_faltantes": 0.0005744734343842048
+  },
+  {
+   "N": 3,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.3200138888888889,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.064,
+   "ic95_wilson": [
+    0.05408683168238927,
+    0.075584894865258
+   ],
+   "cobertura_do_intervalo_do_teste": 0.908,
+   "vies": 0.011832889854544044,
+   "vies_pelas_faltantes": 0.01343776814981635
+  },
+  {
+   "N": 3,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.23015277777777848,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.2645,
+   "ic95_wilson": [
+    0.2456341466481011,
+    0.28426881574174045
+   ],
+   "cobertura_do_intervalo_do_teste": 0.921,
+   "vies": 0.009958652020931269,
+   "vies_pelas_faltantes": 0.011380613180641883
+  },
+  {
+   "N": 3,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.319361111111111,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.069,
+   "ic95_wilson": [
+    0.058698094889270865,
+    0.0809544604823713
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9055,
+   "vies": 0.02177218130552366,
+   "vies_pelas_faltantes": 0.02165366071514769
+  },
+  {
+   "N": 3,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.23325000000000085,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.2715,
+   "ic95_wilson": [
+    0.2524605288160714,
+    0.29141559392736305
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9115,
+   "vies": 0.01760239067569476,
+   "vies_pelas_faltantes": 0.01766379597406183
+  },
+  {
+   "N": 5,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.25191666666666646,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.0385,
+   "ic95_wilson": [
+    0.03091420302425215,
+    0.047855296521021294
+   ],
+   "cobertura_do_intervalo_do_teste": 0.919,
+   "vies": 0.0007546064920041624,
+   "vies_pelas_faltantes": -0.00019206616639602759
+  },
+  {
+   "N": 5,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.24825833333333291,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.388,
+   "ic95_wilson": [
+    0.3668774919437113,
+    0.4095519423988036
+   ],
+   "cobertura_do_intervalo_do_teste": 0.916,
+   "vies": 0.0006165740503916578,
+   "vies_pelas_faltantes": -8.974526127007808e-05
+  },
+  {
+   "N": 5,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.24951666666666641,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.0345,
+   "ic95_wilson": [
+    0.027351577595805796,
+    0.04343325889027176
+   ],
+   "cobertura_do_intervalo_do_teste": 0.928,
+   "vies": -0.0007317871276371087,
+   "vies_pelas_faltantes": -0.0002768231247543705
+  },
+  {
+   "N": 5,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.2511749999999998,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.393,
+   "ic95_wilson": [
+    0.37181886496922406,
+    0.4145913981972857
+   ],
+   "cobertura_do_intervalo_do_teste": 0.916,
+   "vies": 0.002883804916122626,
+   "vies_pelas_faltantes": 0.00022321305779144258
+  },
+  {
+   "N": 5,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.3201666666666677,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.0735,
+   "ic95_wilson": [
+    0.0628625230852384,
+    0.08577277822799914
+   ],
+   "cobertura_do_intervalo_do_teste": 0.901,
+   "vies": 0.013036722002289924,
+   "vies_pelas_faltantes": 0.013576231629049265
+  },
+  {
+   "N": 5,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.23017499999999952,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.487,
+   "ic95_wilson": [
+    0.4651398584807809,
+    0.5089099865768324
+   ],
+   "cobertura_do_intervalo_do_teste": 0.926,
+   "vies": 0.010381203307433876,
+   "vies_pelas_faltantes": 0.011258507257470744
+  },
+  {
+   "N": 5,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.31997500000000134,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.0905,
+   "ic95_wilson": [
+    0.07869880568394708,
+    0.10387131363087301
+   ],
+   "cobertura_do_intervalo_do_teste": 0.8945,
+   "vies": 0.02186215240742305,
+   "vies_pelas_faltantes": 0.02168659899908759
+  },
+  {
+   "N": 5,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.23574999999999932,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.534,
+   "ic95_wilson": [
+    0.5120929439777046,
+    0.5557766920254607
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9155,
+   "vies": 0.018144854194677165,
+   "vies_pelas_faltantes": 0.018048051455557584
+  },
+  {
+   "N": 8,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.2515520833333337,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.036,
+   "ic95_wilson": [
+    0.02868448710149568,
+    0.045094598031780314
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9205,
+   "vies": -0.0013286014603990657,
+   "vies_pelas_faltantes": 7.649343975834417e-05
+  },
+  {
+   "N": 8,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.25140104166666694,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.617,
+   "ic95_wilson": [
+    0.5954898735774982,
+    0.6380615209039818
+   ],
+   "cobertura_do_intervalo_do_teste": 0.92,
+   "vies": -0.0012457386045381935,
+   "vies_pelas_faltantes": -1.2539695267126724e-07
+  },
+  {
+   "N": 8,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.2512968750000003,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.036,
+   "ic95_wilson": [
+    0.02868448710149568,
+    0.045094598031780314
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9225,
+   "vies": -0.0005040542011961703,
+   "vies_pelas_faltantes": -0.00010547178690746177
+  },
+  {
+   "N": 8,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.24946874999999977,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.6135,
+   "ic95_wilson": [
+    0.591960353813923,
+    0.6346044604907607
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9205,
+   "vies": -0.0014437908006313255,
+   "vies_pelas_faltantes": 0.00022982536699915352
+  },
+  {
+   "N": 8,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.32040624999999956,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.075,
+   "ic95_wilson": [
+    0.06425346485532411,
+    0.0873760851051119
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9045,
+   "vies": 0.012730578877031684,
+   "vies_pelas_faltantes": 0.013677758717581076
+  },
+  {
+   "N": 8,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.23024999999999934,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.73,
+   "ic95_wilson": [
+    0.7101153414834619,
+    0.7490027844203021
+   ],
+   "cobertura_do_intervalo_do_teste": 0.913,
+   "vies": 0.009939251386730977,
+   "vies_pelas_faltantes": 0.011215870563424414
+  },
+  {
+   "N": 8,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.32077604166666646,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.108,
+   "ic95_wilson": [
+    0.09514077137615333,
+    0.12236224882264883
+   ],
+   "cobertura_do_intervalo_do_teste": 0.8825,
+   "vies": 0.0209583517550969,
+   "vies_pelas_faltantes": 0.02169374888962755
+  },
+  {
+   "N": 8,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.23519270833333308,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.7485,
+   "ic95_wilson": [
+    0.7290204377153927,
+    0.7670267548371524
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9075,
+   "vies": 0.017230177878990227,
+   "vies_pelas_faltantes": 0.01784742348269814
+  },
+  {
+   "N": 12,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.25105555555555503,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.0315,
+   "ic95_wilson": [
+    0.02469793238521229,
+    0.04009840680646833
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9315,
+   "vies": -0.0009122459270353173,
+   "vies_pelas_faltantes": 1.1900342341600927e-06
+  },
+  {
+   "N": 12,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.2501458333333337,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.8145,
+   "ic95_wilson": [
+    0.796867082728097,
+    0.8309270503011803
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9195,
+   "vies": -3.295676610766407e-05,
+   "vies_pelas_faltantes": -0.00013267373365457205
+  },
+  {
+   "N": 12,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.2511874999999999,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.031,
+   "ic95_wilson": [
+    0.024257353031001076,
+    0.03954090327828007
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9325,
+   "vies": -0.0007432996259888792,
+   "vies_pelas_faltantes": -2.7115390669032908e-05
+  },
+  {
+   "N": 12,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.252159722222222,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.7995,
+   "ic95_wilson": [
+    0.7813860641300672,
+    0.8164655824272256
+   ],
+   "cobertura_do_intervalo_do_teste": 0.9195,
+   "vies": -0.0006917546933988272,
+   "vies_pelas_faltantes": -0.00017973030981874443
+  },
+  {
+   "N": 12,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.3195520833333332,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.0905,
+   "ic95_wilson": [
+    0.07869880568394708,
+    0.10387131363087301
+   ],
+   "cobertura_do_intervalo_do_teste": 0.893,
+   "vies": 0.014153134036142599,
+   "vies_pelas_faltantes": 0.013674686309905988
+  },
+  {
+   "N": 12,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.23073263888888892,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.8905,
+   "ic95_wilson": [
+    0.876058370599789,
+    0.9034443605542103
+   ],
+   "cobertura_do_intervalo_do_teste": 0.912,
+   "vies": 0.010125449539399284,
+   "vies_pelas_faltantes": 0.011219625030597901
+  },
+  {
+   "N": 12,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "efeito": 0.0,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.3210833333333333,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.125,
+   "ic95_wilson": [
+    0.11122058877464372,
+    0.14021724942574101
+   ],
+   "cobertura_do_intervalo_do_teste": 0.8665,
+   "vies": 0.02048643218904576,
+   "vies_pelas_faltantes": 0.021361494511191133
+  },
+  {
+   "N": 12,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "efeito": 0.1,
+   "R": 2000,
+   "fracao_de_celulas_faltando": 0.23721527777777768,
+   "sem_veredito": 0.0,
+   "rejeicao": 0.9205,
+   "ic95_wilson": [
+    0.9078218656421078,
+    0.9315658384558609
+   ],
+   "cobertura_do_intervalo_do_teste": 0.878,
+   "vies": 0.017371774590889275,
+   "vies_pelas_faltantes": 0.01787862470394822
+  }
+ ],
+ "segundos": 43.30936026573181
+}

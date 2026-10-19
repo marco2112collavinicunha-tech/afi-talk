@@ -1,0 +1,53 @@
+{
+ "SINTETICO": true,
+ "semente_raiz": 20261005,
+ "mundo": "pior_caso",
+ "N": 5,
+ "K": 20,
+ "replicas": 10000,
+ "piloto": 2000,
+ "ganho_verdadeiro_do_igualado": 0.21374048611111118,
+ "ganho_medio_observado": 0.21367691666666688,
+ "teste": "t de uma amostra, unilateral",
+ "funcao_do_programa": "analise_do_estudo.ganho_frases_fixas",
+ "sha256_programa": "06dff422ce043397fe239258249abb8e7d9b335f4c3afe26d0bf81d17870d1c1",
+ "taxas": {
+  "centrado": {
+   "0.04": {
+    "taxa": 0.0414,
+    "wilson95": [
+     0.037668302008397436,
+     0.045483914236210024
+    ]
+   },
+   "0.05": {
+    "taxa": 0.0508,
+    "wilson95": [
+     0.046665923012702865,
+     0.05527907379732258
+    ]
+   }
+  },
+  "natural": {
+   "0.04": {
+    "taxa": 0.5673,
+    "wilson95": [
+     0.557565166132226,
+     0.5769831457882667
+    ]
+   },
+   "0.05": {
+    "taxa": 0.6343,
+    "wilson95": [
+     0.6248102312167524,
+     0.6436866230317194
+    ]
+   }
+  }
+ },
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "segundos": 77.58584213256836,
+ "aviso": "SINTÉTICO: vetores gaussianos e kNN-1; não é fala apráxica real; mesmos estudos de h1b_igualado_dois_metodos.py"
+}

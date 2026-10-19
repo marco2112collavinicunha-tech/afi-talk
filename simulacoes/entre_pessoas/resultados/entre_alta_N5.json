@@ -1,0 +1,125 @@
+{
+ "SINTETICO": true,
+ "semente_raiz": 20261005,
+ "mundo": "entre_alta",
+ "N": 5,
+ "K": 20,
+ "replicas": 10000,
+ "piloto": 2000,
+ "ganho_verdadeiro_do_igualado": 0.41747645833333236,
+ "funcao_do_programa": "analise_do_estudo.teste_da_h1b_dois_metodos",
+ "sha256_programa": "06dff422ce043397fe239258249abb8e7d9b335f4c3afe26d0bf81d17870d1c1",
+ "sha256_calculado": "na importacao do modulo",
+ "alfa_registrado": 0.04,
+ "taxas": {
+  "centrado": {
+   "ambos": {
+    "0.04": {
+     "taxa": 0.027,
+     "wilson95": [
+      0.02400022561640319,
+      0.030363050187563956
+     ]
+    },
+    "0.05": {
+     "taxa": 0.0343,
+     "wilson95": [
+      0.030907865139522712,
+      0.038049804082269024
+     ]
+    }
+   },
+   "nadeau_bengio": {
+    "0.04": {
+     "taxa": 0.0651,
+     "wilson95": [
+      0.06042968804509622,
+      0.07010432600806513
+     ]
+    },
+    "0.05": {
+     "taxa": 0.0757,
+     "wilson95": [
+      0.07067682878193793,
+      0.08104904420669476
+     ]
+    }
+   },
+   "jackknife": {
+    "0.04": {
+     "taxa": 0.035,
+     "wilson95": [
+      0.031572750057802544,
+      0.03878438154652033
+     ]
+    },
+    "0.05": {
+     "taxa": 0.0435,
+     "wilson95": [
+      0.0396742236093285,
+      0.04767637978287234
+     ]
+    }
+   }
+  },
+  "natural": {
+   "ambos": {
+    "0.04": {
+     "taxa": 0.9786,
+     "wilson95": [
+      0.9755744194408907,
+      0.9812580038153912
+     ]
+    },
+    "0.05": {
+     "taxa": 0.9884,
+     "wilson95": [
+      0.9861057808757553,
+      0.9903191157359622
+     ]
+    }
+   },
+   "nadeau_bengio": {
+    "0.04": {
+     "taxa": 0.9864,
+     "wilson95": [
+      0.983935842648519,
+      0.9884905900131098
+     ]
+    },
+    "0.05": {
+     "taxa": 0.9913,
+     "wilson95": [
+      0.9892817343693361,
+      0.9929409349700105
+     ]
+    }
+   },
+   "jackknife": {
+    "0.04": {
+     "taxa": 0.9903,
+     "wilson95": [
+      0.988181889893125,
+      0.9920415474711769
+     ]
+    },
+    "0.05": {
+     "taxa": 0.9964,
+     "wilson95": [
+      0.9950203406518698,
+      0.9973984117602033
+     ]
+    }
+   }
+  }
+ },
+ "degenerados": {
+  "centrado": 0,
+  "natural": 0
+ },
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "segundos": 187.04028797149658,
+ "aviso": "SINTÉTICO: vetores gaussianos e kNN-1; não é fala apráxica real; não cobre seleção de configuração, regressão logística, empate 1/k, frases faltando, serviço comum nem o Genérico"
+}
