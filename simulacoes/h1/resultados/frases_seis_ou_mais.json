@@ -1,0 +1,232 @@
+{
+ "SINTETICO": true,
+ "semente_raiz": 202611162,
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "programa": "analise/analise_do_estudo.py",
+ "sha256_programa": "06dff422ce043397fe239258249abb8e7d9b335f4c3afe26d0bf81d17870d1c1",
+ "aviso": "Dados SINT\u00c9TICOS; n\u00e3o cobre fala apr\u00e1xica real nem o tamanho real da assimetria, do agrupamento ou das trocas.",
+ "script": "frases_seis_ou_mais.py",
+ "replicas": 4000,
+ "alfa_unilateral": 0.04,
+ "celulas": [
+  {
+   "N": 5,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "R": 4000,
+   "rejeicao_todos": 0.0425,
+   "ic95_todos": [
+    0.03667497977844836,
+    0.04920294306445332
+   ],
+   "rejeicao_seis_ou_mais": 0.042260565141285324,
+   "ic95_seis": [
+    0.03645188989872432,
+    0.048947842131641314
+   ],
+   "sem_veredito_seis": 0.00025,
+   "participantes_restantes_medio": 4.93275
+  },
+  {
+   "N": 5,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "R": 4000,
+   "rejeicao_todos": 0.037,
+   "ic95_todos": [
+    0.03158040645086341,
+    0.04330807065572341
+   ],
+   "rejeicao_seis_ou_mais": 0.03675918979744936,
+   "ic95_seis": [
+    0.03135746320926069,
+    0.043050077673696056
+   ],
+   "sem_veredito_seis": 0.00025,
+   "participantes_restantes_medio": 4.92225
+  },
+  {
+   "N": 5,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "R": 4000,
+   "rejeicao_todos": 0.0755,
+   "ic95_todos": [
+    0.06771356610000381,
+    0.0841010311607869
+   ],
+   "rejeicao_seis_ou_mais": 0.10459828196058615,
+   "ic95_seis": [
+    0.09544428423404332,
+    0.11451908229731926
+   ],
+   "sem_veredito_seis": 0.0105,
+   "participantes_restantes_medio": 4.4815
+  },
+  {
+   "N": 5,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "R": 4000,
+   "rejeicao_todos": 0.09375,
+   "ic95_todos": [
+    0.08510263543761612,
+    0.10317694085731022
+   ],
+   "rejeicao_seis_ou_mais": 0.12094543625848629,
+   "ic95_seis": [
+    0.11117551950032803,
+    0.13144694505591056
+   ],
+   "sem_veredito_seis": 0.00575,
+   "participantes_restantes_medio": 4.51925
+  },
+  {
+   "N": 8,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "R": 4000,
+   "rejeicao_todos": 0.04475,
+   "ic95_todos": [
+    0.03876760915342006,
+    0.05160599603615586
+   ],
+   "rejeicao_seis_ou_mais": 0.04275,
+   "ic95_seis": [
+    0.036907266605895425,
+    0.049470176497747834
+   ],
+   "sem_veredito_seis": 0.0,
+   "participantes_restantes_medio": 7.8815
+  },
+  {
+   "N": 8,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "R": 4000,
+   "rejeicao_todos": 0.03725,
+   "ic95_todos": [
+    0.03181128050465958,
+    0.04357671686266882
+   ],
+   "rejeicao_seis_ou_mais": 0.037,
+   "ic95_seis": [
+    0.03158040645086341,
+    0.04330807065572341
+   ],
+   "sem_veredito_seis": 0.0,
+   "participantes_restantes_medio": 7.8895
+  },
+  {
+   "N": 8,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "R": 4000,
+   "rejeicao_todos": 0.08125,
+   "ic95_todos": [
+    0.0731791786892303,
+    0.09012438456861685
+   ],
+   "rejeicao_seis_ou_mais": 0.1245,
+   "ic95_seis": [
+    0.11462736069280266,
+    0.1350932076733385
+   ],
+   "sem_veredito_seis": 0.0,
+   "participantes_restantes_medio": 7.14625
+  },
+  {
+   "N": 8,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "R": 4000,
+   "rejeicao_todos": 0.109,
+   "ic95_todos": [
+    0.0997147039276582,
+    0.11903560827250474
+   ],
+   "rejeicao_seis_ou_mais": 0.1565,
+   "ic95_seis": [
+    0.14557048571458767,
+    0.16808867602647617
+   ],
+   "sem_veredito_seis": 0.0,
+   "participantes_restantes_medio": 7.1985
+  },
+  {
+   "N": 12,
+   "perda": "aleatoria",
+   "estrutura": "aditiva",
+   "R": 4000,
+   "rejeicao_todos": 0.04075,
+   "ic95_todos": [
+    0.03505063728618851,
+    0.04733064373152207
+   ],
+   "rejeicao_seis_ou_mais": 0.04075,
+   "ic95_seis": [
+    0.03505063728618851,
+    0.04733064373152207
+   ],
+   "sem_veredito_seis": 0.0,
+   "participantes_restantes_medio": 11.8285
+  },
+  {
+   "N": 12,
+   "perda": "aleatoria",
+   "estrutura": "com_interacao",
+   "R": 4000,
+   "rejeicao_todos": 0.04325,
+   "ic95_todos": [
+    0.03737201372879841,
+    0.050004469896328
+   ],
+   "rejeicao_seis_ou_mais": 0.0455,
+   "ic95_seis": [
+    0.039466146317972656,
+    0.05240601965382802
+   ],
+   "sem_veredito_seis": 0.0,
+   "participantes_restantes_medio": 11.84125
+  },
+  {
+   "N": 12,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "aditiva",
+   "R": 4000,
+   "rejeicao_todos": 0.0875,
+   "ic95_todos": [
+    0.07913422061541298,
+    0.09665734916097377
+   ],
+   "rejeicao_seis_ou_mais": 0.15875,
+   "ic95_seis": [
+    0.147752932566078,
+    0.1704019115216601
+   ],
+   "sem_veredito_seis": 0.0,
+   "participantes_restantes_medio": 10.762
+  },
+  {
+   "N": 12,
+   "perda": "ligada_ao_ganho",
+   "estrutura": "com_interacao",
+   "R": 4000,
+   "rejeicao_todos": 0.1255,
+   "ic95_todos": [
+    0.11559133358671411,
+    0.13612731582239332
+   ],
+   "rejeicao_seis_ou_mais": 0.208,
+   "ic95_seis": [
+    0.19570482888837423,
+    0.2208555065654558
+   ],
+   "sem_veredito_seis": 0.0,
+   "participantes_restantes_medio": 10.81125
+  }
+ ],
+ "segundos": 22.831329107284546
+}
