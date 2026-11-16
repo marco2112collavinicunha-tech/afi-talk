@@ -1,0 +1,48 @@
+{
+ "semente": 20261116,
+ "reps": 150,
+ "N": 12,
+ "K": 20,
+ "resultados": {
+  "nulo_exato": {
+   "personalizado": 83.46,
+   "igualado_atual": 83.94,
+   "igualado_equilibrado": 84.07,
+   "igualado_equilibrado_mesmos": 84.09,
+   "ganho_1b_atual": -0.48,
+   "ganho_1b_equilibrado": -0.61
+  },
+  "entre_baixa": {
+   "personalizado": 72.33,
+   "igualado_atual": 66.39,
+   "igualado_equilibrado": 67.31,
+   "igualado_equilibrado_mesmos": 66.67,
+   "ganho_1b_atual": 5.94,
+   "ganho_1b_equilibrado": 5.02
+  },
+  "entre_media": {
+   "personalizado": 82.52,
+   "igualado_atual": 65.74,
+   "igualado_equilibrado": 66.55,
+   "igualado_equilibrado_mesmos": 65.79,
+   "ganho_1b_atual": 16.78,
+   "ganho_1b_equilibrado": 15.97
+  },
+  "entre_alta": {
+   "personalizado": 94.59,
+   "igualado_atual": 57.86,
+   "igualado_equilibrado": 58.71,
+   "igualado_equilibrado_mesmos": 57.41,
+   "ganho_1b_atual": 36.73,
+   "ganho_1b_equilibrado": 35.88
+  },
+  "pior_caso": {
+   "personalizado": 73.34,
+   "igualado_atual": 51.62,
+   "igualado_equilibrado": 53.75,
+   "igualado_equilibrado_mesmos": 52.92,
+   "ganho_1b_atual": 21.72,
+   "ganho_1b_equilibrado": 19.59
+  }
+ }
+}
